@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* UP Education Network brand tokens for the page shell. The workspace itself
+   carries its own stylesheet (workspace.css). */
+@theme {
+  --color-up-cyan: #00b9e4;
+  --color-up-grey: #3c3c3c;
+  --color-up-light-blue: #a6def3;
+  --color-up-paper: #fbfbfa;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Jost", "Century Gothic", ui-sans-serif, system-ui, sans-serif;
+}
+
+html,
+body {
+  background: var(--color-up-paper);
+  color: var(--color-up-grey);
+}
